@@ -23,7 +23,7 @@ public class SHA1 {
       System.out.print("Ingresar el texto a encriptar: "); 
       Scanner text = new Scanner(System.in);
       String Tx = text.nextLine();
-      System.out.println("El texto a encriptar es: "+Tx+"\nEl texto encriptado con SHA-1 es: " +DigestUtils.sha1Hex(Tx)); 
+      System.out.println("El texto encriptado con SHA-1 es: " +DigestUtils.sha1Hex(Tx)); 
  
         
         
